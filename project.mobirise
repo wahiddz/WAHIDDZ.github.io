@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-03-21_1245",
+    "name": "dove",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -26,7 +26,9 @@
     "versionFirst": "4.6.6",
     "uniqCompNum": 15,
     "versionPublish": "4.6.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
