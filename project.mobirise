@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#2b0680",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -19,12 +19,14 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 13,
-    "versionPublish": "4.6.6"
+    "uniqCompNum": 15,
+    "versionPublish": "4.6.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -57,155 +59,134 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
-          "title": "FULL SCREEN INTRO",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "title": "FREE Dove® Product Samples",
+          "text": "SuperSave offers deals, coupons, freebies, samples and other related offers through our extensive list of savings opportunities. Although there is no purchase required to access our list<br>\n<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"http://clixtk.com/s/6fD/\" data-toolbar=\"-mbrBtnMove\">READ MORE</a> ",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-c"
-        },
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            }
-          },
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"http://clixtk.com/s/6e3/\">NOUS CONTACTER</a></li>",
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/handdrawn-circle-logo-128x128.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "http://clixtk.com/s/6e3/",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-7"
+          "_anchor": "header1-d"
         },
         {
           "_params": {
-            "showTitle": true,
-            "showText": true,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
             "showButtons": true,
-            "inverse": false,
-            "showArrow": true,
-            "imageSize": 50,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/plage-de-sable-mer-dazur-palmiers-ciel-bleu-201796-2000x1125.jpg",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "media": {
+          "media1": {
             "image": {
+              "src": "@PROJECT_PATH@/assets/images/dove1-600x360.jpg",
+              "class": "card-img-top",
+              "width": 600,
               "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/12-1-1400x840.jpg",
-              "link": "http://clixtk.com/s/6e3/",
+              "link": "http://clixtk.com/s/6fD/",
               "alt": "",
               "title": "",
               "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-header2",
-              "link": "",
-              "size": 250
             }
           },
-          "title": "",
-          "text": "NE MANQUEZ PAS CETTE OCCASION! REPONDEZ SIMPLEMENT AU QUIZ ET QUALIFIEZ-VOUS POUR LE TIRAGE AU SORT.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LIRE LA SUITE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dove2-600x554.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://clixtk.com/s/6fD/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dove3-600x335.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://clixtk.com/s/6fD/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dove-port-william-setiawan-600x362.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://clixtk.com/s/6fD/",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "<br><br>",
+          "subtitle1": "Rich Moisture Tip to Toe Wash<br><br>",
+          "caption1": "A tear-free and hypoallergenic baby wash and shampoo that replenishes essential nutrients and moisture to your baby’s delicate skin.<br>",
+          "title2": "",
+          "subtitle2": "Dove Exfoliating Body Polish Crushed Macadamia &amp; Rice Milk",
+          "caption2": "Polish your skin with a body scrub that nourishes, for a silky smooth feeling. Infused with the scent of macadamia.<br><br>",
+          "title3": "<br><br>",
+          "subtitle3": "Dove 'Real Beauty Pledge'<br><br>",
+          "caption3": "Dove invites all women to realize their personal potential for beauty by engaging them with products that deliver superior care.<br>",
+          "title4": "<br><br>",
+          "subtitle4": "#RealMoms<br><br>",
+          "caption4": "We believe there's no right way to be a mom. So whether you do it by the book or make it up as you go, trust your way.<br><br>",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"http://clixtk.com/s/6fD/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Discover more</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"http://clixtk.com/s/6fD/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Discover more</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"http://clixtk.com/s/6fD/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Discover more</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://clixtk.com/s/6fD/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Discover more</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "header2",
-          "_anchor": "header2-b",
+          "_name": "features3",
+          "_anchor": "features3-e",
           "_styles": {
-            ".mbr-section-text": {
-              "font-size": "25px"
+            "H5": {
+              "color": "#000000"
             }
           }
         }
